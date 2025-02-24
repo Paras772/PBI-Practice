@@ -1,1 +1,2 @@
 This will be my go-to DAX Practice Document .
+SUM(Table[ColName])  - SUM provides summation of all values in column.
