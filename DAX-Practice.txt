@@ -14,3 +14,14 @@ MAX(Table[ColumnName]) - Returns the Maximum Value in a Column.
 Min(Table[Column]) - Returns the Minimum Value in a Column. 
 Calculate() - Calculate(<Expression>, <Filter1> ...) - way to modify filter context while evaluating expressions. It Applies Filter Context before evaluating expressions.
 Filter() - FILTER(<Table>, <Expression>) - way to fetch out a virtual table from the orignal table on the basis of applied expression. however since it makes a virtual table and therefore not recommended to use in case of large datasets because it can slows down the performance.
+IF() - IF(<Expression>, <true value>, <False value>) - used for definig conditions on data and label them accordingly.
+switch() - SWITCH(<Expression>,  evaluates an expression against list of values and evaluates result
+                <Value1>, <result1>,
+                <Value2>, <Result2>
+                <else>
+                        )
+
+Related - Related(Table[Col Name]) - returns a related value from another table.
+RelatedTable - relatedtable(Table) -returns a table containing related values.
+All() - All(Table[col name]) removes all filters from a column or table. 
+allexcept - allexcept()
