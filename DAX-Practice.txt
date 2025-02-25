@@ -8,7 +8,7 @@ DistinctCount() - DISTINCTCOUNT(Table[Column]) - Returns a unique count of value
 Range() - Range(Table[ColName]) - Gives out a difference between maximum and minimum value in a column, therefore the range of values.
 Rangex() - Rangex(<Table>, <Expression>) - provide a way to evaluate an expression row by row and the finds the range in caluculated values.
 Average(Table[ColName]) - Returns the arithmetic average of the column.
-Averagex(Tabe[ColName]) - Iterates over the table , evaluates an expression row by row and returns the average.
+Averagex(<Table> , <Expression>) - Iterates over the table , evaluates an expression row by row and returns the average.
 MAX(Table[ColumnName]) - Returns the Maximum Value in a Column.
 Min(Table[Column]) - Returns the Minimum Value in a Column. 
 Calculate() - Calculate(<Expression>, <Filter1> ...) - way to modify filter context while evaluating expressions. It Applies Filter Context before evaluating expressions.
