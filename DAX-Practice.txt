@@ -24,4 +24,4 @@ switch() - SWITCH(<Expression>,  evaluates an expression against list of values 
 Related - Related(Table[Col Name]) - returns a related value from another table.
 RelatedTable - relatedtable(Table) -returns a table containing related values.
 All() - All(Table[col name]) removes all filters from a column or table. 
-allexcept - allexcept()
+allexcept - allexcept(<Table>, <Column1>, <Col2>) - removes all the filters except those from the specified column.
