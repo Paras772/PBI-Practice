@@ -1,2 +1,6 @@
-This will be my go-to DAX Practice Document .
+This will be my go-to Practice Document for DAX .
 SUM(Table[ColName])  - SUM provides summation of all values in column.
+SUMX(<Table> , <Expression>) - SUMX Provides row by row evaluation of expressions.
+Count() - Count(Column_Name) is to count non-blank numeric entries in a table.
+Counta() - Counta(Column_Name) is to count all types of non-blank entries irrespective of data types be it numeric, text , string eic.
+Countx() - CountX(<Table_Name>, <Expression>) - evaluates an expression row by row , it is just like counta() for row by row expressions.
