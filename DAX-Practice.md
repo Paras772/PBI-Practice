@@ -57,5 +57,3 @@
   - Performs division with an optional alternative result for division by zero.
 - **`RANKX(<Table>, <Expression>, [Value], [Order], [Ties])`**  
   - Returns the rank of a value in a column.
-
-This guide serves as a handy reference for practicing DAX functions efficiently! 🚀
