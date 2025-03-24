@@ -1,4 +1,4 @@
-# 📊 Power BI Practice Repository
+#  Power BI Practice Repository
 
 ## Overview
 This repository contains Power BI reports created as part of my **Power BI Essentials Training** on **LinkedIn Learning**. It includes various dashboards and visualizations for data analysis.
